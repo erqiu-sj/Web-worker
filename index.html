@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      window.addEventListener("load", async () => {
+        if ("serviceWorker" in navigator) {
+          const result = await navigator.serviceWorker.register("./work.js");
+        }
+      });
+    </script>
+    <!-- 引用了应用程序清单 -->
+    <link rel="manifest" href="./manifest.json" />
+  </head>
+  <body>
+    <h1>Jsman</h1>
+  </body>
+</html>

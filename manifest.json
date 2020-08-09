@@ -1,0 +1,15 @@
+{
+  "name": "JSman_Pwa",
+  "short_name": "JsShort",
+  "start_url": "./index.html",
+  "icons": [
+    {
+      "src": "Image/wallet.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "skyblue",
+  "theme_color": "yellow",
+  "display": "standalone"
+}
